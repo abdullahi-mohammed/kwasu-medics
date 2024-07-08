@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from '../../../components/dashboard/doctor/navbar'
+import Header from '../../../components/dashboard/header'
 
-const doctor = () => {
+const DoctorDashboard = () => {
     return (
-        <div>doctor</div>
+        <div>
+            <Header />
+            <Navbar />
+        </div>
     )
 }
 
-export default doctor
+export default DoctorDashboard
