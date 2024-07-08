@@ -16,6 +16,7 @@ body {
   --primarycolor--:#7F8FD5;
 }
 
+
 ::-webkit-scrollbar {
   width: 2px;
 }
@@ -25,6 +26,9 @@ body {
   background: #f1f1f105;
 }
 
+button{
+  cursor: pointer;
+}
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #c058ed;
