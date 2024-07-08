@@ -1,7 +1,15 @@
 import React from "react";
+import styles from "./logos.module.css";
+import { getImageUrl } from "../../../helpers/imageHelper";
 
-function Logo() {
-  return <div>Logo</div>;
+function Logos() {
+  return (
+    <div className={styles.logo}>
+      <img src={getImageUrl("kwasu-logo.png")} alt="kwasu logo" />
+      <h1>Logo</h1>
+      <img src={getImageUrl("medic-logo.png")} alt="medic logo" />
+    </div>
+  );
 }
 
-export default Logo;
+export default Logos;

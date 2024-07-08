@@ -1,9 +1,10 @@
 import React from 'react'
+import Logos from '../../components/login/logos/logos'
 
 const Login = () => {
     return (
         <div>
-            Login page
+            <Logos />
         </div>
     )
 }
