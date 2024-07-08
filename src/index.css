@@ -7,6 +7,13 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  max-width: 1300px;
+  width: 100%;
+   margin: 0 auto;
+}
+
+*{
+  --primarycolor--:#7F8FD5;
 }
 
 ::-webkit-scrollbar {

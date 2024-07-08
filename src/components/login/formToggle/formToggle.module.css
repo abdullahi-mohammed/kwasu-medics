@@ -1,0 +1,14 @@
+.formToggle{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: fit-content;
+    border: solid 1px var(--primarycolor--);
+}
+.formToggle div{
+    padding: 20px 45px;
+}
+
+.formToggle div:hover{
+    background-color: var(--primarycolor--);
+}
