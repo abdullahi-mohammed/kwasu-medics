@@ -4,10 +4,15 @@ import styles from "./forgotPassword.module.css";
 import Logos from "../../components/login/logos/logos";
 const ForgotPassword = () => {
   return (
-    <div className={styles.forgotPassword}>
-      <Logos />
-      <ForgottenPassword />
+    <div className={styles.wrapper}>
+      <div className={styles.forgotPassword}>
+        <div className={styles.centered}>
+          <Logos />
+          <ForgottenPassword />
+        </div>
+      </div>
     </div>
+
   );
 };
 

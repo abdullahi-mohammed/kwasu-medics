@@ -4,13 +4,13 @@
   background-repeat: no-repeat;
   padding: 50px;
   width: 95%;
-  height: 95%;
+  height: 95vh;
   border-radius: 20px;
   margin: auto;
 }
 
 .login > div{
-  display: flex;
+  display: flex; 
   gap: 20px;
   flex-direction: column;
   align-items: center;
@@ -44,9 +44,13 @@
   justify-content:center;
   width: fit-content;
   border: solid 1px var(--primarycolor--);
+  border-radius: 8px;
 }
 .formToggle div{
-  padding: 20px 45px;
+  padding: 10px 25px;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
 .formToggle .studentActive {
@@ -57,11 +61,11 @@
   background-color: blue;
 }
 
-.formToggle div:hover{
+/* .formToggle div:hover{
   background-color: var(--primarycolor--);
   user-select: none;
   cursor: pointer;
-}
+} */
 
 .stuForm {
   display: flex;
@@ -80,6 +84,7 @@
   background-color: transparent;
   border: solid 1px var(--primarycolor--);
   padding: 15px 10px;
+  border-radius: 8px;
 }
 
 .stuForm ::-webkit-input-placeholder {
@@ -95,8 +100,8 @@
   background-color: var(--primarycolor--);
   padding: 15px 20px;
   color: white;
-
   width: 100%;
+  border-radius: 8px;
 }
 
 .stuForm input,

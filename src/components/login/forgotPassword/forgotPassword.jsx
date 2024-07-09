@@ -8,12 +8,13 @@ function ForgottenPassword() {
     <form className={styles.forgotPassword}>
       <h2>Forgot Password</h2>
       <input type="text" placeholder="Email address" />
-
-      <img src={getImageUrl("Line.png")} alt="" />
-      <Link to="/login">
-        {" "}
-        <h3>Login?</h3>
-      </Link>
+      <hr className="w-[100%] bg-[#7f8fd5] border-[#7f8fd5] my-10" />
+      <div className="flex items-center gap-2 mb-3 ">
+        <h3>Remember Password?</h3>
+        <Link to="/login">
+          Login
+        </Link>
+      </div>
 
       <button>Reset password</button>
     </form>
