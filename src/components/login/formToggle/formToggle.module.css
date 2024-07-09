@@ -11,4 +11,6 @@
 
 .formToggle div:hover{
     background-color: var(--primarycolor--);
+    user-select: none;
+    cursor: pointer;
 }
