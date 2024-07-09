@@ -29,7 +29,7 @@ button {
   cursor: pointer;
 }
 
-.stuForm input:focus {
+input:focus {
   outline: none;
 }
 /* Handle */
