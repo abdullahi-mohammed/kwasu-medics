@@ -8,8 +8,8 @@ function Stuform() {
   return (
     <form className={styles.stuForm}>
       <h2>Login</h2>
-      <input type="text" placeholder="Username/Reg No./Matric No." />
-      <input type="password" placeholder="Password" />
+      <input type="text" placeholder="Username/Reg No./Matric No." autoComplete="true" />
+      <input type="password" placeholder="Password" autoComplete="true" />
 
       <img src={getImageUrl("Line.png")} alt="" />
 

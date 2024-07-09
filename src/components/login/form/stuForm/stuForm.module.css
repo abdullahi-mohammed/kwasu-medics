@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: left;
   gap: 40px;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -19,6 +19,10 @@
   border: solid 1px var(--primarycolor--);
   padding: 15px 10px;
   margin-left: 100px;
+}
+
+.stuForm input:focus{
+  outline: none;
 }
 
 .stuForm ::-webkit-input-placeholder {
@@ -37,4 +41,25 @@
   padding: 15px 20px;
   color: white;
   margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+  .stuForm input,
+  .stuForm h2,
+  .stuForm h3,
+  .stuForm button {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .stuForm input,
+  .stuForm h2,
+  .stuForm h3,
+  .stuForm button {
+    margin-left: 10px;
+  }
+  .stuForm input {
+    width: 90%;
+  }
 }

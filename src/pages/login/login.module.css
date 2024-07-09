@@ -8,3 +8,9 @@
   align-items: center;
   padding: 50px;
 }
+
+@media (max-width: 768px) {
+  .login {
+    padding: 20px;
+  }
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,13 +9,12 @@ body {
   font-size: 14px;
   max-width: 1300px;
   width: 100%;
-   margin: 0 auto;
+  margin: 0 auto;
 }
 
-*{
-  --primarycolor--:#7F8FD5;
+* {
+  --primarycolor--: #7f8fd5;
 }
-
 
 ::-webkit-scrollbar {
   width: 2px;
@@ -26,8 +25,12 @@ body {
   background: #f1f1f105;
 }
 
-button{
+button {
   cursor: pointer;
+}
+
+.stuForm input:focus {
+  outline: none;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {

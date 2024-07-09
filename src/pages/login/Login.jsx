@@ -4,6 +4,7 @@ import styles from "./login.module.css";
 
 import FormToggle from "../../components/login/formToggle/formToggle";
 import Stuform from "../../components/login/form/stuForm/stuForm";
+import DocForm from "../../components/login/form/docForm/docForm";
 
 const Login = () => {
   // const [position, setPosition] = useState("dd");
@@ -12,7 +13,7 @@ const Login = () => {
     <div className={styles.login}>
       <Logos />
       <FormToggle />
-      <Stuform />
+      <DocForm />
     </div>
   );
 };
