@@ -9,6 +9,14 @@
     padding: 20px 45px;
 }
 
+.formToggle .studentActive {
+    background-color: blue;
+}
+
+.formToggle .doctorActive {
+    background-color: blue;
+}
+
 .formToggle div:hover{
     background-color: var(--primarycolor--);
     user-select: none;

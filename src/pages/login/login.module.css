@@ -2,17 +2,105 @@
   background: url(../../assets/login-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 50px;
+  width: 95%;
+  height: 95%;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.login > div{
   display: flex;
   gap: 20px;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
-  width: 95%;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: auto;
 }
 
-@media (max-width: 768px) {
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* @media (max-width: 768px) {
   .login {
     padding: 20px;
   }
+} */
+
+.formToggle{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: fit-content;
+  border: solid 1px var(--primarycolor--);
 }
+.formToggle div{
+  padding: 20px 45px;
+}
+
+.formToggle .studentActive {
+  background-color: blue;
+}
+
+.formToggle .doctorActive {
+  background-color: blue;
+}
+
+.formToggle div:hover{
+  background-color: var(--primarycolor--);
+  user-select: none;
+  cursor: pointer;
+}
+
+.stuForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.stuForm h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.stuForm input {
+  width: 100%;
+  background-color: transparent;
+  border: solid 1px var(--primarycolor--);
+  padding: 15px 10px;
+}
+
+.stuForm ::-webkit-input-placeholder {
+  color: black;
+}
+
+.stuForm h3 {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.stuForm button {
+  background-color: var(--primarycolor--);
+  padding: 15px 20px;
+  color: white;
+
+  width: 100%;
+}
+
+.stuForm input,
+.stuForm button {
+  border-radius: 5px;
+}
+
