@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./formToggle.module.css";
 
-function FormToggle({ data, onDataChange }) {
+function FormToggle() {
   let position = "";
 
   const clickStuHandler = (e) => {
@@ -12,9 +12,7 @@ function FormToggle({ data, onDataChange }) {
     position = "Doctor";
     console.log(position);
   };
-  const handleChange = () => {
-    onDataChange(position);
-  };
+
   return (
     <div className={styles.formToggle}>
       <div onClick={() => clickStuHandler(e)}>Student</div>

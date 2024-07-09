@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import styles from "./stuForm.module.css";
 import { getImageUrl } from "../../../../helpers/imageHelper";
 
@@ -11,7 +13,10 @@ function Stuform() {
 
       <img src={getImageUrl("Line.png")} alt="" />
 
-      <h3>Forgot Password?</h3>
+      <Link to="/forgot-password">
+        {" "}
+        <h3>Forgot Password? </h3>
+      </Link>
       <button>Login</button>
     </form>
   );
