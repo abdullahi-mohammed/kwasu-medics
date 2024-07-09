@@ -21,9 +21,7 @@
   margin-left: 100px;
 }
 
-.stuForm input:focus{
-  outline: none;
-}
+
 
 .stuForm ::-webkit-input-placeholder {
   color: black;
