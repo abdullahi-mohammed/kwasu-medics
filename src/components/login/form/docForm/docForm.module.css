@@ -1,62 +1,43 @@
 .docForm {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    gap: 40px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  .docForm h2 {
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 100px;
-  }
-  
-  .docForm input {
-    width: 70%;
-    background-color: transparent;
-    border: solid 1px var(--primarycolor--);
-    padding: 15px 10px;
-    margin-left: 100px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  margin: 0 auto;
+}
 
-  .docForm ::-webkit-input-placeholder {
-    color: black;
-  }
-  
-  .docForm h3 {
-    font-size: 17px;
-    font-weight: 300;
-    margin-top: 30px;
-    margin-left: 100px;
-  }
-  
-  .docForm button {
-    background-color: var(--primarycolor--);
-    padding: 15px 20px;
-    color: white;
-    margin-left: 100px;
-  }
-  
-  @media (max-width: 768px) {
-    .docForm input,
-    .docForm h2,
-    .docForm h3,
-    .docForm button {
-      margin-left: 50px;
-    }
-  }
-  
-  @media (max-width: 425px) {
-    .docForm input,
-    .docForm h2,
-    .docForm h3,
-    .docForm button {
-      margin-left: 10px;
-    }
-    .docForm input {
-      width: 90%;
-    }
-  }
-  
+.docForm h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.docForm input {
+  width: 90%;
+  background-color: transparent;
+  border: solid 1px var(--primarycolor--);
+  padding: 15px 10px;
+}
+
+.docForm ::-webkit-input-placeholder {
+  color: black;
+}
+
+.docForm h3 {
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.docForm button {
+  background-color: var(--primarycolor--);
+  padding: 15px 20px;
+  color: white;
+
+  width: 100%;
+}
+
+.docForm input,
+.docForm button {
+  border-radius: 5px;
+}

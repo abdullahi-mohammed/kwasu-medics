@@ -1,7 +1,7 @@
 .stuForm {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   gap: 40px;
   width: 100%;
   margin: 0 auto;
@@ -10,18 +10,14 @@
 .stuForm h2 {
   font-size: 20px;
   font-weight: 400;
-  margin-left: 100px;
 }
 
 .stuForm input {
-  width: 70%;
+  width: 90%;
   background-color: transparent;
   border: solid 1px var(--primarycolor--);
   padding: 15px 10px;
-  margin-left: 100px;
 }
-
-
 
 .stuForm ::-webkit-input-placeholder {
   color: black;
@@ -31,33 +27,17 @@
   font-size: 17px;
   font-weight: 300;
   margin-top: 30px;
-  margin-left: 100px;
 }
 
 .stuForm button {
   background-color: var(--primarycolor--);
   padding: 15px 20px;
   color: white;
-  margin-left: 100px;
+
+  width: 100%;
 }
 
-@media (max-width: 768px) {
-  .stuForm input,
-  .stuForm h2,
-  .stuForm h3,
-  .stuForm button {
-    margin-left: 50px;
-  }
-}
-
-@media (max-width: 425px) {
-  .stuForm input,
-  .stuForm h2,
-  .stuForm h3,
-  .stuForm button {
-    margin-left: 10px;
-  }
-  .stuForm input {
-    width: 90%;
-  }
+.stuForm input,
+.stuForm button {
+  border-radius: 5px;
 }

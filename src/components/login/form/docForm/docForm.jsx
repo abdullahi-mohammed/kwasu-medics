@@ -8,8 +8,8 @@ function DocForm() {
   return (
     <form className={styles.docForm}>
       <h2>Login</h2>
-      <input type="text" placeholder="Username/License NO." autoComplete/>
-      <input type="password" placeholder="Password" autoComplete/>
+      <input type="text" placeholder="Username/License NO." autoComplete />
+      <input type="password" placeholder="Password" autoComplete />
 
       <img src={getImageUrl("Line.png")} alt="" />
 
