@@ -26,7 +26,6 @@
 .stuForm h3 {
   font-size: 17px;
   font-weight: 300;
-  margin-top: 30px;
 }
 
 .stuForm button {
@@ -40,4 +39,13 @@
 .stuForm input,
 .stuForm button {
   border-radius: 5px;
+}
+
+.forgot {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
 }

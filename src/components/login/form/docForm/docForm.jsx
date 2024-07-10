@@ -13,10 +13,10 @@ function DocForm() {
 
       <img src={getImageUrl("Line.png")} alt="" />
 
-      <Link to="/forgot-password">
-        {" "}
+      <div className={styles.forgot}>
         <h3>Forgot Password? </h3>
-      </Link>
+        <Link to="/forgot-password">Reset Password</Link>
+      </div>
       <button>Login</button>
     </form>
   );
